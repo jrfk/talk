@@ -30,4 +30,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    anyio.run(main, backend="asyncio")  # これをasyncioに変えるだけで動く
+    anyio.run(main, backend="asyncio")  # これをtrioに変えるだけで動く
